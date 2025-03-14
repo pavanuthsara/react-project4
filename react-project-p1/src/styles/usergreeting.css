@@ -1,0 +1,41 @@
+/* General styling for the component */
+.welcome-greeting,
+.not-logged-in {
+  font-family: sans-serif; /* Use a common sans-serif font */
+  padding: 1rem; /* Add some padding for spacing */
+  border-radius: 5px; /* Slightly rounded corners */
+  margin-bottom: 1rem; /* Space between elements, if needed */
+}
+
+/* Styling for the logged-in state */
+.welcome-greeting {
+  background-color: #e0f7fa; /* Light blue background */
+  color: #00796b; /* Darker teal text color */
+  border: 1px solid #b2ebf2; /* Light border */
+  text-align: center;/*center the text*/
+  font-weight: 600; /*make the font slightly bolder*/
+}
+
+/* Styling for the logged-out state */
+.not-logged-in {
+  background-color: #ffe0b2; /* Light orange background */
+  color: #d84315; /* Darker orange text color */
+  border: 1px solid #ffcc80; /* Lighter orange border */
+  text-align: center; /*center the text*/
+}
+
+/* Optional: Add hover effects for interactivity */
+.welcome-greeting:hover,
+.not-logged-in:hover {
+  opacity: 0.9; /* Slightly reduce opacity on hover */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+  .welcome-greeting,
+  .not-logged-in {
+    padding: 0.75rem; /* Adjust padding for smaller screens */
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}
