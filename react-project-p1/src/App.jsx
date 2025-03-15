@@ -6,6 +6,8 @@ import UserGreeting from './UserGreeting'
 import List from './List'
 import CheckProps from './CheckProps'
 import Button from './Button'
+import MyComponent from './MyComponent'
+import CounterProgram from './CounterProgram'
 
 function App() {
   const fruits = [{key:1, name:'apple', calories: 100},
@@ -20,10 +22,12 @@ function App() {
 
   return (
     <>
-      <List items={vegetables} category="Vegetables" />
+      {/* <List items={vegetables} category="Vegetables" />
       <List items={fruits} category="Fruits" />
       <CheckProps/>
-      <Button/>
+      <Button/> */}
+      {/* <MyComponent/> */}
+      <CounterProgram/>
     </>
   )
 }
